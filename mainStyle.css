@@ -40,6 +40,9 @@ button:hover{
     border: 2px solid #382431;
 }
 
+html {
+    overflow-x: hidden;
+}
 
 body{
     margin: 0;
