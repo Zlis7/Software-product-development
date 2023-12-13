@@ -5,28 +5,30 @@
 }
 
 
-a{
+a {
     text-decoration: none;
     color: #47EEA8;
     border: 2px solid #382431;
+    transition: all 0.8s ease 0s;
 }
 a:active{
-    border: 2px outset #47EEA8;
+    border: 2px solid #47EEA8;
 }
 a:hover{
     background: hsl(320, 20%, 25%);
 }
 
 
-button{
+button {
     text-decoration: none;
     color: #47EEA8;
     border: 2px solid #382431;
     background: #382431;
     font-size: 20px;
+    transition: all 0.8s ease 0s;
 }
 button:hover{
-    border: 2px outset hsl(320, 20%, 25%);
+    border: 2px solid hsl(320, 20%, 25%);
 }
 
 
@@ -89,6 +91,7 @@ header nav{
 }
 #dropdown:hover #dropdownContent {
     display: block;
+
 }
 #mediaContacts {
     margin-left: 30px;
@@ -134,7 +137,7 @@ main {
 #bigBlock b{
     font-size: 14px;
 }
-#container{
+#container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -188,6 +191,8 @@ footer {
 #personalСontacts ul {
     font-size: 18px;
 }
+
+
 
 @media screen and (max-width:794px){
     #personalСontacts {
